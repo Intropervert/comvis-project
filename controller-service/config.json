@@ -1,0 +1,20 @@
+{
+    "config_mqtt": {
+        "MQTT_HOST": "10.168.1.28",
+        "MQTT_PORT": 1883,
+        "MQTT_USERNAME": "jpo:jpo",
+        "MQTT_PASSWORD": "rastek@jpo",
+        "MQTT_TOPIC": "jpo/config/sensor/"
+    },
+    "log": {
+        "filename": "log.txt"
+    },
+    "config_zip":{
+        "targetdir" : "../geti_code"
+    },
+    "config_telegram": {
+        "APITOKEN" : "6818011610:AAEmhbF_G6q3X3-L1uKbcOXKSldpXpZmGko",
+        "CHATID" : -4082112798,
+        "APIURL" : "https://api.telegram.org/bot{APITOKEN}/sendMessage"
+    }
+}
